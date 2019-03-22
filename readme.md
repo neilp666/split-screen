@@ -1,0 +1,1 @@
+Example split screen site with sticky sides
