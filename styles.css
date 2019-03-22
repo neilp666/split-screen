@@ -33,6 +33,41 @@ header {
     justify-content: center;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+section div {
+    width: 50%;
+}
+
+section div.text {
+    padding: 60px;
+}
+
+section div.full-image {
+    height: 100vh;
+
+    background-image: url(images/image-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section div.image-2 {
+    background-image: url(images/image-3.jpg);
+
+}
+
+section div.image-3 {
+    background-image: url(images/image-6.jpg);
+    
+}
+
 @media (max-width: 800px) {
     body {
         font-size: 16px;
