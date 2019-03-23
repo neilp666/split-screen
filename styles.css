@@ -80,4 +80,24 @@ section div.image-3 {
     h2 {
         font-size: 32px;
     }
+
+    header {
+        height: 75vw;
+    }
+
+    section  {
+        display: block;
+    }
+
+    section div {
+        width: 100%;
+    }
+
+    section div.text {
+        padding: 30px;
+    }
+
+    section div.full-image {
+        height: 100vh;
+    }
 }
